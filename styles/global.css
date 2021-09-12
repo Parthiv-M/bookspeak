@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Jost-Bold";
+  src: url("/fonts/Jost-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost-Regular";
+  src: url("/fonts/Jost-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost-Light";
+  src: url("/fonts/Jost-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+.bold-text {
+  font-family: "Jost-Bold", Roboto, Oxygen, Ubuntu;
+}
+
+.regular-text {
+  font-family: "Jost-Regular", Roboto, Oxygen, Ubuntu;
+}
+
+.light-text {
+  font-family: "Jost-Light", Roboto, Oxygen, Ubuntu;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus, 
+input:focus, 
+textarea:focus {
+  outline: none;
+}
+
+/* custom scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* scroll bar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #121212;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #12121291;
+}
+
+/* selection customisation */
+::-moz-selection {
+  background-color: black;
+  color: white;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
