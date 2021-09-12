@@ -1,3 +1,5 @@
+![](extras/Bookspeak.png)
+
 # BookSpeak
 
 BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors.
