@@ -120,7 +120,7 @@ export default function Home() {
           </svg>
         </div>
         <div className="w-full z-20 h-80 flex items-center my-5">
-          <div className="flex flex-col items-start justify-center h-full w-full">
+          <div className="flex flex-col lg:items-start items-center justify-center h-full w-full">
             <p className="bold-text lg:text-9xl text-6xl">Book Speak<span className="lg:text-9xl text-5xl text-blue">.</span></p>
             <p className="light-text lg:text-5xl text-3xl text-gray-dark">Let the words reveal</p>
           </div>

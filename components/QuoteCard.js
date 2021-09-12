@@ -10,7 +10,9 @@ const QuoteCard = (props) => {
 
     return (
         <div className="text-center quote-card my-2">
-            <div className="quote-image lg:h-3/4 h-96 w-full"></div>
+            <div className="quote-image lg:h-3/4 h-96 w-full">
+                <img className="rounded-lg" src={props.data.image} alt={props.data.book}></img>
+            </div>
             <div className="lg:h-48 flex flex-col mt-3">
                 <div className="px-5 w-full lg:h-1/4 h-20 flex items-center justify-between">
                     <div className="text-left">
@@ -41,13 +43,6 @@ const QuoteCard = (props) => {
                 .quote-card {
                     height: 44rem;
                 }
-                .quote-image{
-                    background-image: url("${props.data.image}");
-                    background-position: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    border-radius: 5px;
-                } 
                 @media only screen and (max-width: 800px) {
                     .quote-card {
                         height: 38rem;
