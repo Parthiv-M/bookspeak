@@ -15,6 +15,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
         </body>
       </Html>
     )
