@@ -93,6 +93,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
+        <title>Book Speak</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"

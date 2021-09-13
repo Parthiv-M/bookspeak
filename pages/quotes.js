@@ -39,6 +39,52 @@ export default function Quotes({ quotes }) {
       <Head>
         <title>Quotes | Book Speak</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1.0"
+        />
+        <meta
+          name="description"
+          content="BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Parthiv Menon, parthivmenon01@gmail.com" />
+        <meta
+          name="keywords"
+          content="parthiv menon, bookspeak, books, quotes, authors, quote, reading, library"
+        />
+        <meta name="url" content="https://bookspeak.parthivmenon.com/quotes" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="target" content="all" />
+        <meta name="HandheldFriendly" content="True" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://bookspeak.parthivmenon.com/quotes" />
+        <meta name="reply-to" content="parthivmenon01@gmail.com" />
+        {/* OG meta tags */}
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Quotes | Book Speak"
+        />
+        <meta
+          property="og:description"
+          content="BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors."
+        />
+        <meta property="og:image" content="/images/BookSpeakLight.png" />
+        <meta property="og:url" content="https://bookspeak.parthivmenon.com/quotes" />
+        <meta
+          property="og:site_name"
+          content="Quotes | Book Speak"
+        />
+        <meta
+          name="twitter:title"
+          content="Quotes | Book Speak"
+        />
+        <meta
+          name="twitter:description"
+          content="BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors."
+        />
+        <meta name="twitter:image" content="/images/mist_og.png" />
       </Head>
       <div className="flex flex-col items-center w-full flex-1 md:px-20 px-5 text-center">
         <div className="h-96 z-0 top-0 absolute w-full flex lg:justify-start justify-center">
