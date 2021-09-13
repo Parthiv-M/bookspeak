@@ -93,8 +93,53 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
-        <title>Book Speak</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1.0"
+        />
+        <meta
+          name="description"
+          content="BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Parthiv Menon, parthivmenon01@gmail.com" />
+        <meta
+          name="keywords"
+          content="parthiv menon, bookspeak, books, quotes, authors, quote, reading, library"
+        />
+        <meta name="url" content="https://bookspeak.parthivmenon.com" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="target" content="all" />
+        <meta name="HandheldFriendly" content="True" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://bookspeak.parthivmenon.com" />
+        <meta name="reply-to" content="parthivmenon01@gmail.com" />
+        {/* OG meta tags */}
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Book Speak | Let the Words Reveal"
+        />
+        <meta
+          property="og:description"
+          content="BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors."
+        />
+        <meta property="og:image" content="/images/BookSpeakLight.png" />
+        <meta property="og:url" content="https://bookspeak.parthivmenon.com/" />
+        <meta
+          property="og:site_name"
+          content="Book Speak | Let the Words Reveal"
+        />
+        <meta
+          name="twitter:title"
+          content="Book Speak | Let the Words Reveal"
+        />
+        <meta
+          name="twitter:description"
+          content="BookSpeak is your place to find powerful quotes, contribute towards getting your favourite quote on the website and explore new authors."
+        />
+        <meta name="twitter:image" content="/images/mist_og.png" />
       </Head>
       <div className="flex min-h-screen flex-col items-center w-full flex-1 md:px-20 px-5 text-center z-50">
         <div className="h-48 fixed flex">
