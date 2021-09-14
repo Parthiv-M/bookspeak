@@ -6,9 +6,9 @@ const Footer = () => {
           <div className="w-full h-full grid lg:grid-cols-1 grid-cols-1 items-center p-5">
             <div className="flex flex-col justify-center items-center text-md">
               <div className="flex jusitfy-center items-center text-xl text-gray-light">
-                <a href="" target="_blank" rel="noreferrer"><i className="lni lni-github-original mx-2 hover:text-yellow cursor-pointer"></i></a>
-                <a href="" target="_blank" rel="noreferrer"><i className="lni lni-linkedin-original mx-2 hover:text-purple cursor-pointer"></i></a>
-                <a href="" target="_blank" rel="noreferrer"><i className="lni lni-instagram-original mx-2 hover:text-red cursor-pointer"></i></a>
+                <a href="https://github.com/Parthiv-M" target="_blank" rel="noreferrer"><i className="lni lni-github-original mx-2 hover:text-yellow cursor-pointer"></i></a>
+                <a href="https://www.linkedin.com/in/parthivmenon" target="_blank" rel="noreferrer"><i className="lni lni-linkedin-original mx-2 hover:text-purple cursor-pointer"></i></a>
+                <a href="https://instagram.com/_.parthiv_" target="_blank" rel="noreferrer"><i className="lni lni-instagram-original mx-2 hover:text-red cursor-pointer"></i></a>
               </div>
               <p className="text-gray-light text-lg mt-1">Developed by <span><a href="https://parthivmenon.com" className="rounded-lg text-gray hover:underline">Parthiv Menon</a></span></p>
               <p className="text-gray-light">with <span><a href="https://nextjs.org/" className="text-orange hover:underline">NextJS</a></span></p>
