@@ -10,7 +10,7 @@ const QuoteCard = (props) => {
 
     return (
         <div className="text-center quote-card my-2">
-            <div className="quote-image lg:h-3/4 w-full">
+            <div className="w-full">
                 <img className="rounded-lg" src={props.data.image} alt={props.data.book}></img>
             </div>
             <div className="lg:h-48 flex flex-col mt-2 lg:mt-3">
