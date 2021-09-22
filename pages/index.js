@@ -204,15 +204,15 @@ export default function Home() {
       </div>
       <div className="flex lg:flex-row flex-col items-center justify-center w-3/4 flex-1 text-center my-5 lg:h-72 h-96">
         <div className="h-full flex flex-col justify-center bg-gray-lightest rounded-lg lg:w-2/4 md:w-1/2 w-full mx-10 hover:shadow-md hover:-translate-y-2 my-3 p-3">
-          <p className="bold-text lg:text-9xl text-8xl text-gray-darkest">5</p>
+          <p className="bold-text lg:text-9xl text-8xl text-gray-darkest">6</p>
           <p className="text-3xl light-text text-gray-dark">QUOTES THAT YOU WILL LOVE TO READ</p>
         </div>
         <div className="h-full flex flex-col justify-center bg-gray-lightest rounded-lg lg:w-2/4 md:w-1/2 w-full mx-10 hover:shadow-md hover:-translate-y-2 my-3 p-3">
-          <p className="bold-text lg:text-9xl text-8xl text-gray-darkest">4</p>
+          <p className="bold-text lg:text-9xl text-8xl text-gray-darkest">5</p>
           <p className="text-3xl light-text text-gray-dark">ENTHUSIASTIC CONTRIBUTORS</p>
         </div>
         <div className="h-full flex flex-col justify-center bg-gray-lightest rounded-lg lg:w-2/4 md:w-1/2 w-full mx-10 hover:shadow-md hover:-translate-y-2 my-3 p-3">
-          <p className="bold-text lg:text-9xl text-8xl text-gray-darkest">4</p>
+          <p className="bold-text lg:text-9xl text-8xl text-gray-darkest">5</p>
           <p className="text-3xl light-text text-gray-dark">BESTSELLING AUTHORS QUOTED</p>
         </div>
       </div>
